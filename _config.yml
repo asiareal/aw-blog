@@ -69,5 +69,5 @@ theme: next
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: git@github.com:AsiaWang1991/blog.git
+  repo: git@github.com:asiareal/blog.git
   branch: master
