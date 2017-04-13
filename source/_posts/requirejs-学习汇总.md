@@ -3,6 +3,7 @@ title: requirejs 学习汇总
 date: 2017-04-06 22:55:42
 categories: 笔记
 tags:
+  - javascript
   - requirejs
 ---
 
