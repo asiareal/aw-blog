@@ -71,7 +71,7 @@
 <link href="/css/main.css?v=5.1.0" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="javascript," />
+  <meta name="keywords" content="正则表达式," />
 
 
 
@@ -87,37 +87,97 @@
 
 
 
-<meta name="description" content="最近有好多同事还在问我关于this的问题，那我就从函数调用模式的角度来说明一下this
+<meta name="description" content="最近看了一位讲正则表达式的视频，讲的挺好的在此做一下总结
 
-首先this是什么javascript中调用一个函数，这个函数除了声明时定义的形式参数外，每个函数还接收两个附加的参数：this 和 arguments。参数 this在面向对象编程中非常重要，它的值取决与调用模式。
-调用模式javascript中的调用模式，一共有4种：
+工具工欲善其事必先利其器，首先说一下正则表达式一个很好的在线编辑校验工具
+http://regex101.com/
+这个真是我见过最好的工具了，没有之一。
+常用字符符号
 
-方法调用模式
-函数调用模式
-构造">
+
+符号
+含义
+范例
+
+
+
+
+.
+任意字符
+“A”, “ “(空格), “囧”, “1”
+
+
+\d
+任意数字
+“1”, “2”, “3”
+
+
+\D
+任意非数字字符
+“a">
 <meta property="og:type" content="article">
-<meta property="og:title" content="javascript this 问题说明">
-<meta property="og:url" content="http://www.asiawang.me/2017/04/30/javascript-this-问题说明/index.html">
+<meta property="og:title" content="正则表达式总结">
+<meta property="og:url" content="http://www.asiawang.me/2017/06/12/正则表达式总结/index.html">
 <meta property="og:site_name" content="Asia's blog">
-<meta property="og:description" content="最近有好多同事还在问我关于this的问题，那我就从函数调用模式的角度来说明一下this
+<meta property="og:description" content="最近看了一位讲正则表达式的视频，讲的挺好的在此做一下总结
 
-首先this是什么javascript中调用一个函数，这个函数除了声明时定义的形式参数外，每个函数还接收两个附加的参数：this 和 arguments。参数 this在面向对象编程中非常重要，它的值取决与调用模式。
-调用模式javascript中的调用模式，一共有4种：
+工具工欲善其事必先利其器，首先说一下正则表达式一个很好的在线编辑校验工具
+http://regex101.com/
+这个真是我见过最好的工具了，没有之一。
+常用字符符号
 
-方法调用模式
-函数调用模式
-构造">
-<meta property="og:updated_time" content="2017-05-01T14:56:23.000Z">
+
+符号
+含义
+范例
+
+
+
+
+.
+任意字符
+“A”, “ “(空格), “囧”, “1”
+
+
+\d
+任意数字
+“1”, “2”, “3”
+
+
+\D
+任意非数字字符
+“a">
+<meta property="og:updated_time" content="2017-06-18T14:20:02.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="javascript this 问题说明">
-<meta name="twitter:description" content="最近有好多同事还在问我关于this的问题，那我就从函数调用模式的角度来说明一下this
+<meta name="twitter:title" content="正则表达式总结">
+<meta name="twitter:description" content="最近看了一位讲正则表达式的视频，讲的挺好的在此做一下总结
 
-首先this是什么javascript中调用一个函数，这个函数除了声明时定义的形式参数外，每个函数还接收两个附加的参数：this 和 arguments。参数 this在面向对象编程中非常重要，它的值取决与调用模式。
-调用模式javascript中的调用模式，一共有4种：
+工具工欲善其事必先利其器，首先说一下正则表达式一个很好的在线编辑校验工具
+http://regex101.com/
+这个真是我见过最好的工具了，没有之一。
+常用字符符号
 
-方法调用模式
-函数调用模式
-构造">
+
+符号
+含义
+范例
+
+
+
+
+.
+任意字符
+“A”, “ “(空格), “囧”, “1”
+
+
+\d
+任意数字
+“1”, “2”, “3”
+
+
+\D
+任意非数字字符
+“a">
 
 
 
@@ -145,13 +205,13 @@
 
 
 
-  <link rel="canonical" href="http://www.asiawang.me/2017/04/30/javascript-this-问题说明/"/>
+  <link rel="canonical" href="http://www.asiawang.me/2017/06/12/正则表达式总结/"/>
 
 
 
 
 
-  <title> javascript this 问题说明 | Asia's blog </title>
+  <title> 正则表达式总结 | Asia's blog </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -290,7 +350,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="http://www.asiawang.me/2017/04/30/javascript-this-问题说明/">
+    <link itemprop="mainEntityOfPage" href="http://www.asiawang.me/2017/06/12/正则表达式总结/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Asia Wang">
@@ -311,7 +371,7 @@
             
             
               
-                javascript this 问题说明
+                正则表达式总结
               
             
           </h1>
@@ -326,8 +386,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-04-30T22:10:33+08:00">
-                2017-04-30
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-06-12T21:55:54+08:00">
+                2017-06-12
               </time>
             
 
@@ -367,7 +427,7 @@
                 <span class="post-meta-item-icon">
                   <i class="fa fa-comment-o"></i>
                 </span>
-                <a class="cloud-tie-join-count" href="/2017/04/30/javascript-this-问题说明/#comments" itemprop="discussionUrl">
+                <a class="cloud-tie-join-count" href="/2017/06/12/正则表达式总结/#comments" itemprop="discussionUrl">
                   <span class="post-comments-count join-count" itemprop="commentCount"></span>
                 </a>
               </span>
@@ -395,44 +455,279 @@
 
       
         <blockquote>
-<p>最近有好多同事还在问我关于<code>this</code>的问题，那我就从函数调用模式的角度来说明一下<code>this</code></p>
+<p>最近看了一位讲正则表达式的视频，讲的挺好的在此做一下总结</p>
 </blockquote>
-<h2 id="首先this是什么"><a href="#首先this是什么" class="headerlink" title="首先this是什么"></a>首先this是什么</h2><p>javascript中调用一个函数，这个函数除了声明时定义的形式参数外，每个函数还接收两个附加的参数：<code>this</code> 和 <code>arguments</code>。<br>参数 <code>this</code>在面向对象编程中非常重要，它的值取决与调用模式。</p>
-<h2 id="调用模式"><a href="#调用模式" class="headerlink" title="调用模式"></a>调用模式</h2><p>javascript中的调用模式，一共有4种：</p>
-<ul>
-<li>方法调用模式</li>
-<li>函数调用模式</li>
-<li>构造器调用模式</li>
-<li>apply / call 调用模式</li>
-</ul>
-<h3 id="方法调用模式"><a href="#方法调用模式" class="headerlink" title="方法调用模式"></a>方法调用模式</h3><p>当一个函数被保存为对象的一个属性时，我们称它为一个方法。当一个方法被调用的时候<br>（即包含一个 . 点表达式或[subscript]下标表达式），<code>this</code>被绑定到该对象。</p>
-<script async src="//jsfiddle.net/asiareal/vq37nyxu/4/embed/js,html,result/"></script>
-
-<h3 id="函数调用模式"><a href="#函数调用模式" class="headerlink" title="函数调用模式"></a>函数调用模式</h3><p>当一个函数并非一个对象属性时，那么它就是被当作一个函数来调用的。<br>以此模式调用函数时，<code>this</code>被绑定到了全局对象。这是语言设计上的一个错误。倘若语言设计的正确，<br>那么当内部函数被调用时，<code>this</code>应该仍然绑定到外部函数的<code>this</code>变量。下面例子来演示这个错误。</p>
-<blockquote>
-<p>例子</p>
-</blockquote>
-<script async src="//jsfiddle.net/asiareal/bsjdf9ut/embed/js,html,result/"></script>
-
-<p>针对这个有种很好解决的方案，定义一个变量并给它赋值<code>this</code>，那么内部函数就可以通过那个变量访问到<code>this</code>。<br>按照约定，命名为<code>that</code>。</p>
-<blockquote>
-<p>例子</p>
-</blockquote>
-<script async src="//jsfiddle.net/asiareal/cjjrxcwj/embed/js,html,result/"></script>
-
-<h3 id="构造器调用模式"><a href="#构造器调用模式" class="headerlink" title="构造器调用模式"></a>构造器调用模式</h3><p>javascript 是一门基于原型继承的语言。如果一个函数前面带上<code>new</code>来调用，那么背地里会创建一个连接到该函数的<code>prototype</code><br>成员的新对象，同时<code>this</code>会被绑定到那个新对象上。</p>
-<script async src="//jsfiddle.net/asiareal/v7fw8ax2/embed/js,html,result/"></script>
-
-<h3 id="apply-／-call-调用模式"><a href="#apply-／-call-调用模式" class="headerlink" title="apply ／ call 调用模式"></a>apply ／ call 调用模式</h3><p>因为Javascript 是一门函数式的面向对象编程语言，所以函数是可以拥有方法的。</p>
-<p>函数的<code>apply</code>方法允许我们选择<code>this</code>的值。<code>apply</code>方法接收两个参数，第一个是要绑定给<code>this</code>的值，第二个是参数数数组。</p>
-<script async src="//jsfiddle.net/asiareal/5y3p35e8/2/embed/js,html,result/"></script>
-
-<p>关于<code>apply</code>和 <code>call</code> 的区别，我暂时的理解就是参数的不同，<code>apply</code>方法接收两个参数，第一个是要绑定给<code>this</code>的值，第二个是参数数数组。<br>而<code>call</code>可以接收N个参数，第一个是要绑定给<code>this</code>的值，后面的参数是函数要接收传参。如果大家有不同见解，欢迎留言补充。</p>
-<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><ol>
-<li>方法调用模式，构造器调用模式<code>this</code> 始终指向它的调用者</li>
-<li>函数调用模式<code>this</code>始终绑定到了全局对象上面，可以通过<code>that</code>来解决这个问题</li>
-<li>apply 和 call 可以通过参数的方式指定<code>this</code> </li>
-</ol>
+<h2 id="工具"><a href="#工具" class="headerlink" title="工具"></a>工具</h2><p>工欲善其事必先利其器，首先说一下正则表达式一个很好的在线编辑校验工具</p>
+<p><a href="http://regex101.com/" target="_blank" rel="external">http://regex101.com/</a></p>
+<p>这个真是我见过最好的工具了，没有之一。</p>
+<h2 id="常用字符符号"><a href="#常用字符符号" class="headerlink" title="常用字符符号"></a>常用字符符号</h2><table>
+<thead>
+<tr>
+<th>符号</th>
+<th>含义</th>
+<th>范例</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>.</td>
+<td>任意字符</td>
+<td>“A”, “ “(空格), “囧”, “1”</td>
+</tr>
+<tr>
+<td>\d</td>
+<td>任意数字</td>
+<td>“1”, “2”, “3”</td>
+</tr>
+<tr>
+<td>\D</td>
+<td>任意非数字字符</td>
+<td>“a”, “b”, “c”</td>
+</tr>
+<tr>
+<td>\w</td>
+<td>任意字母字符</td>
+<td>“a”, “B”, “_”, “9”</td>
+</tr>
+<tr>
+<td>\W</td>
+<td>任意非字母字符</td>
+<td>“ “(空格)</td>
+</tr>
+<tr>
+<td>\s</td>
+<td>任意空白字符</td>
+<td>“ “(空格), “\r”, “\t”, “\n”</td>
+</tr>
+<tr>
+<td>\S</td>
+<td>任意非空白字符</td>
+<td>“a”, “B”, “_”</td>
+</tr>
+</tbody>
+</table>
+<h2 id="常用字符类符号"><a href="#常用字符类符号" class="headerlink" title="常用字符类符号"></a>常用字符类符号</h2><table>
+<thead>
+<tr>
+<th>符号</th>
+<th>含义</th>
+<th>范例</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>\r</td>
+<td>回车符</td>
+<td></td>
+</tr>
+<tr>
+<td>\n</td>
+<td>换行符</td>
+<td></td>
+</tr>
+<tr>
+<td>\t</td>
+<td>制表符</td>
+<td></td>
+</tr>
+<tr>
+<td>\</td>
+<td>匹配”\”</td>
+<td></td>
+</tr>
+<tr>
+<td>\xhh</td>
+<td>以ASCII码进 匹配</td>
+<td>\x41可以匹配”A”</td>
+</tr>
+<tr>
+<td>\uhhhh</td>
+<td>以UNICODE码进 匹配</td>
+<td>\u4e00-\u9fa5 中 的范围</td>
+</tr>
+</tbody>
+</table>
+<h2 id="字符集合"><a href="#字符集合" class="headerlink" title="字符集合"></a>字符集合</h2><table>
+<thead>
+<tr>
+<th>符号</th>
+<th>含义</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>[x-z]</td>
+<td>匹配 x, y, z</td>
+</tr>
+<tr>
+<td>[abc]</td>
+<td>匹配 a, b, c</td>
+</tr>
+<tr>
+<td>[^xyz]</td>
+<td>匹配 非(x, y, z)</td>
+</tr>
+<tr>
+<td>[^a-c]</td>
+<td>匹配 非(a, b, c)</td>
+</tr>
+<tr>
+<td>[-]</td>
+<td>匹配 -</td>
+</tr>
+</tbody>
+</table>
+<h2 id="字符边界"><a href="#字符边界" class="headerlink" title="字符边界"></a>字符边界</h2><table>
+<thead>
+<tr>
+<th>符号</th>
+<th>含义</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>^</td>
+<td>匹配行首</td>
+</tr>
+<tr>
+<td>$</td>
+<td>匹配行尾</td>
+</tr>
+<tr>
+<td>\b</td>
+<td>匹配单词的边界</td>
+</tr>
+<tr>
+<td>\B</td>
+<td>匹配非单词的边界</td>
+</tr>
+</tbody>
+</table>
+<p>例子：</p>
+<p><code>o\b</code> 匹配：</p>
+<p>hell<code>o</code> world 只匹配hello的o</p>
+<p><code>o\B</code> 匹配：</p>
+<p>hello w<code>o</code>rld 只匹配world的o</p>
+<h2 id="数量限定符"><a href="#数量限定符" class="headerlink" title="数量限定符"></a>数量限定符</h2><table>
+<thead>
+<tr>
+<th>符号</th>
+<th>含义</th>
+<th>等效</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>x{n}</td>
+<td>匹配字符x n次</td>
+<td></td>
+</tr>
+<tr>
+<td>x{n,}</td>
+<td>匹配字符x 至少n次</td>
+<td></td>
+</tr>
+<tr>
+<td>x{n, m}</td>
+<td>匹配字符x 至少n次至多m次</td>
+<td></td>
+</tr>
+<tr>
+<td>x*</td>
+<td>匹配字符x任意次</td>
+<td>x{0,} </td>
+</tr>
+<tr>
+<td>x+</td>
+<td>匹配字符x 至少1次</td>
+<td>x{1,} </td>
+</tr>
+<tr>
+<td>x?</td>
+<td>匹配字符x 0次或者1次</td>
+<td>x{0, 1}</td>
+</tr>
+</tbody>
+</table>
+<p>数量限定符都是在满足条件下尽可能的匹配多的字符 - 贪婪模式</p>
+<p>如果希望在满足条件下尽可能少的匹配字符, 在数量限定符后 加上“?”, 也就是非贪婪模式</p>
+<h2 id="分支条件"><a href="#分支条件" class="headerlink" title="分支条件"></a>分支条件</h2><p><code>a|b</code></p>
+<p>可以匹配a或者b</p>
+<h2 id="分组与后向引用"><a href="#分组与后向引用" class="headerlink" title="分组与后向引用"></a>分组与后向引用</h2><table>
+<thead>
+<tr>
+<th>符号</th>
+<th>含义 </th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>(x)</td>
+<td>匹配x 并分配一个组</td>
+</tr>
+<tr>
+<td>\1…\n</td>
+<td>引用1-n组匹配</td>
+</tr>
+<tr>
+<td>(?:x)</td>
+<td>匹配x 并分配一个组 但是不创建引用</td>
+</tr>
+</tbody>
+</table>
+<p>例子：</p>
+<p><code>(green|red)\1</code> 匹配<code>greengreen</code> 和 <code>redred</code>，不匹配<code>greenred</code> 和 <code>redgreen</code></p>
+<p> 因为<code>\1</code> 引用前一个匹配结果</p>
+<p><code>(?:green|red)\1</code> 会报解析器错误，因为第一个分组未创建引用</p>
+<h2 id="断言"><a href="#断言" class="headerlink" title="断言"></a>断言</h2><table>
+<thead>
+<tr>
+<th>符号</th>
+<th>含义</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>x(?=y)</td>
+<td>匹配跟随着y的x</td>
+</tr>
+<tr>
+<td>x(?!y)</td>
+<td>匹配不跟随y的x</td>
+</tr>
+</tbody>
+</table>
+<h2 id="模式"><a href="#模式" class="headerlink" title="模式"></a>模式</h2><table>
+<thead>
+<tr>
+<th>模式</th>
+<th>含义</th>
+<th>PCRE修饰符</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>SingleLine</td>
+<td>单行模式 . 会匹配 \n</td>
+<td>/x/s</td>
+</tr>
+<tr>
+<td>MultiLine</td>
+<td>多行模式 . 不会匹配 \n</td>
+<td>/x/m</td>
+</tr>
+<tr>
+<td>IgnoreCase</td>
+<td>忽略大小写</td>
+<td>/x/i</td>
+</tr>
+<tr>
+<td>Global</td>
+<td>全局模式 对整个字符串匹配</td>
+<td>/x/g</td>
+</tr>
+</tbody>
+</table>
 
       
     </div>
@@ -483,7 +778,7 @@
       
         <div class="post-tags">
           
-            <a href="/tags/javascript/" rel="tag"># javascript</a>
+            <a href="/tags/正则表达式/" rel="tag"># 正则表达式</a>
           
         </div>
       
@@ -496,8 +791,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2017/04/17/inline-block-间距问题解决/" rel="next" title="inline-block 间距问题解决">
-                <i class="fa fa-chevron-left"></i> inline-block 间距问题解决
+              <a href="/2017/05/06/mac-如何更优雅的安装nodejs/" rel="next" title="mac 如何更优雅的安装nodejs">
+                <i class="fa fa-chevron-left"></i> mac 如何更优雅的安装nodejs
               </a>
             
           </div>
@@ -505,10 +800,6 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2017/05/06/mac-如何更优雅的安装nodejs/" rel="prev" title="mac 如何更优雅的安装nodejs">
-                mac 如何更优雅的安装nodejs <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -684,7 +975,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#首先this是什么"><span class="nav-number">1.</span> <span class="nav-text">首先this是什么</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#调用模式"><span class="nav-number">2.</span> <span class="nav-text">调用模式</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#方法调用模式"><span class="nav-number">2.1.</span> <span class="nav-text">方法调用模式</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#函数调用模式"><span class="nav-number">2.2.</span> <span class="nav-text">函数调用模式</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#构造器调用模式"><span class="nav-number">2.3.</span> <span class="nav-text">构造器调用模式</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#apply-／-call-调用模式"><span class="nav-number">2.4.</span> <span class="nav-text">apply ／ call 调用模式</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#总结"><span class="nav-number">3.</span> <span class="nav-text">总结</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#工具"><span class="nav-number">1.</span> <span class="nav-text">工具</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#常用字符符号"><span class="nav-number">2.</span> <span class="nav-text">常用字符符号</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#常用字符类符号"><span class="nav-number">3.</span> <span class="nav-text">常用字符类符号</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#字符集合"><span class="nav-number">4.</span> <span class="nav-text">字符集合</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#字符边界"><span class="nav-number">5.</span> <span class="nav-text">字符边界</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#数量限定符"><span class="nav-number">6.</span> <span class="nav-text">数量限定符</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#分支条件"><span class="nav-number">7.</span> <span class="nav-text">分支条件</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#分组与后向引用"><span class="nav-number">8.</span> <span class="nav-text">分组与后向引用</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#断言"><span class="nav-number">9.</span> <span class="nav-text">断言</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#模式"><span class="nav-number">10.</span> <span class="nav-text">模式</span></a></li></ol></div>
             
 
           </div>
