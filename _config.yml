@@ -4,7 +4,7 @@
 
 # Site
 title: Asia's blog
-subtitle: 人生有限，兄争朝夕
+subtitle: 如果你停止了，就在谷底，如果还在继续，就是上坡
 description: AsiaWang的个人博客
 author: Asia Wang
 language: zh-Hans
@@ -69,5 +69,6 @@ theme: next-aw
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: git@github.com:asiareal/blog.git
-  branch: master
+  repo: git@github.com:asiareal/aw-blog.git
+  branch: gh-pages
+  message: "Docs updated: {{ now('YYYY-MM-DD HH:mm:ss') }})"
